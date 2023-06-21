@@ -9,9 +9,9 @@ IHost host = Host.CreateDefaultBuilder(args)
         services.AddSingleton(typeof(ILoggerAdapter<>), typeof(LoggerAdapter<>));
         IConfiguration configuration = hostContext.Configuration;
 
-        //var workerSettings = new WorkerSettings();
-        //hostContext.Configuration.Bind(nameof(WorkerSettings), workerSettings);
-        //services.AddSingleton(workerSettings);
+        var workerSettings = new WorkerSettings();
+        hostContext.Configuration.Bind(nameof(WorkerSettings), workerSettings);
+        services.AddSingleton(workerSettings);
 
         services.AddSingleton<IEntryPointService, EntryPointService>();
 

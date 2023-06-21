@@ -8,16 +8,11 @@ namespace KeyWorkerService.Worker
         private readonly IEntryPointService _EntryPointService;
         private readonly WorkerSettings _workerSettings;
 
-        //public Worker(ILogger<Worker> logger, IEntryPointService entryPointService, WorkerSettings workerSettings)
-        //{
-        //    _logger = logger;
-        //    _EntryPointService = entryPointService;
-        //    _workerSettings = workerSettings;
-        //}
-        public Worker(ILogger<Worker> logger, IEntryPointService entryPointService)
+        public Worker(ILogger<Worker> logger, IEntryPointService entryPointService, WorkerSettings workerSettings)
         {
             _logger = logger;
             _EntryPointService = entryPointService;
+            _workerSettings = workerSettings;
         }
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
@@ -25,13 +20,13 @@ namespace KeyWorkerService.Worker
             while (!stoppingToken.IsCancellationRequested)
             {
                 _logger.LogInformation("Running all services");
-                //List<Task> tasks = new()
-                //{
-                //    _EntryPointService.CargaCatalogoUnicoEnQliksense(_workerSettings.CargaCatalogoUnicoEnQliksense_DelayMilliseconds, stoppingToken)
-                //};
+                List<Task> tasks = new()
+                {
+                    _EntryPointService.CargaCatalogoUnicoEnQliksense(_workerSettings.CargaCatalogoUnicoEnQliksense_DelayMilliseconds, stoppingToken),
+                    _EntryPointService.AnotherService(_workerSettings.AnotherServiceExample_DelayMilliseconds, stoppingToken)
+                };
 
-                //await Task.WhenAll(tasks);
-                await Task.Delay(1000, stoppingToken);
+                await Task.WhenAll(tasks);
             }
         }
     }

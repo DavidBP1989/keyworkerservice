@@ -5,7 +5,7 @@ namespace KeyWorkerService.Infrastructure
 {
     public class LoggerAdapter<T> : ILoggerAdapter<T>
     {
-        private readonly ILogger _logger;
+        private readonly ILogger<T> _logger;
         public LoggerAdapter(ILogger<T> logger)
         {
             _logger = logger;
