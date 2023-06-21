@@ -1,0 +1,15 @@
+D:\David\WorkerService\KeyWorkerService\KeyWorkerService.Infrastructure\bin\Debug\net7.0\KeyWorkerService.Infrastructure.deps.json
+D:\David\WorkerService\KeyWorkerService\KeyWorkerService.Infrastructure\bin\Debug\net7.0\KeyWorkerService.Infrastructure.dll
+D:\David\WorkerService\KeyWorkerService\KeyWorkerService.Infrastructure\bin\Debug\net7.0\KeyWorkerService.Infrastructure.pdb
+D:\David\WorkerService\KeyWorkerService\KeyWorkerService.Infrastructure\bin\Debug\net7.0\KeyWorkerService.Domain.dll
+D:\David\WorkerService\KeyWorkerService\KeyWorkerService.Infrastructure\bin\Debug\net7.0\KeyWorkerService.Domain.pdb
+D:\David\WorkerService\KeyWorkerService\KeyWorkerService.Infrastructure\obj\Debug\net7.0\KeyWorkerService.Infrastructure.csproj.AssemblyReference.cache
+D:\David\WorkerService\KeyWorkerService\KeyWorkerService.Infrastructure\obj\Debug\net7.0\KeyWorkerService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\David\WorkerService\KeyWorkerService\KeyWorkerService.Infrastructure\obj\Debug\net7.0\KeyWorkerService.Infrastructure.AssemblyInfoInputs.cache
+D:\David\WorkerService\KeyWorkerService\KeyWorkerService.Infrastructure\obj\Debug\net7.0\KeyWorkerService.Infrastructure.AssemblyInfo.cs
+D:\David\WorkerService\KeyWorkerService\KeyWorkerService.Infrastructure\obj\Debug\net7.0\KeyWorkerService.Infrastructure.csproj.CoreCompileInputs.cache
+D:\David\WorkerService\KeyWorkerService\KeyWorkerService.Infrastructure\obj\Debug\net7.0\KeyWorkerService.Infrastructure.csproj.CopyComplete
+D:\David\WorkerService\KeyWorkerService\KeyWorkerService.Infrastructure\obj\Debug\net7.0\KeyWorkerService.Infrastructure.dll
+D:\David\WorkerService\KeyWorkerService\KeyWorkerService.Infrastructure\obj\Debug\net7.0\refint\KeyWorkerService.Infrastructure.dll
+D:\David\WorkerService\KeyWorkerService\KeyWorkerService.Infrastructure\obj\Debug\net7.0\KeyWorkerService.Infrastructure.pdb
+D:\David\WorkerService\KeyWorkerService\KeyWorkerService.Infrastructure\obj\Debug\net7.0\ref\KeyWorkerService.Infrastructure.dll

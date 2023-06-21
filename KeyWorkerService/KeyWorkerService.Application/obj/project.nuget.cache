@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "T6K0dsORkFf2Q/ff9zRR5stVm05ldUrxiK+1sHBtIErA8/P/tvJH3+Yt94V2ZTl8nsLBANp1xYwOpQhxRKYIXw==",
+  "success": true,
+  "projectFilePath": "D:\\David\\WorkerService\\KeyWorkerService\\KeyWorkerService.Application\\KeyWorkerService.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Emmanuel\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
