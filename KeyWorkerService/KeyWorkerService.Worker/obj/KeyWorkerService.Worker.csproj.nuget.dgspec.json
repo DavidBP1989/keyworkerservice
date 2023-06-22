@@ -34,9 +34,6 @@
             "projectReferences": {
               "D:\\David\\WorkerService\\KeyWorkerService\\KeyWorkerService.Domain\\KeyWorkerService.Domain.csproj": {
                 "projectPath": "D:\\David\\WorkerService\\KeyWorkerService\\KeyWorkerService.Domain\\KeyWorkerService.Domain.csproj"
-              },
-              "D:\\David\\WorkerService\\KeyWorkerService\\KeyWorkerService.Infrastructure\\KeyWorkerService.Infrastructure.csproj": {
-                "projectPath": "D:\\David\\WorkerService\\KeyWorkerService\\KeyWorkerService.Infrastructure\\KeyWorkerService.Infrastructure.csproj"
               }
             }
           }
@@ -109,6 +106,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -157,6 +160,9 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
+              "D:\\David\\WorkerService\\KeyWorkerService\\KeyWorkerService.Application\\KeyWorkerService.Application.csproj": {
+                "projectPath": "D:\\David\\WorkerService\\KeyWorkerService\\KeyWorkerService.Application\\KeyWorkerService.Application.csproj"
+              },
               "D:\\David\\WorkerService\\KeyWorkerService\\KeyWorkerService.Domain\\KeyWorkerService.Domain.csproj": {
                 "projectPath": "D:\\David\\WorkerService\\KeyWorkerService\\KeyWorkerService.Domain\\KeyWorkerService.Domain.csproj"
               }
@@ -236,8 +242,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\David\\WorkerService\\KeyWorkerService\\KeyWorkerService.Application\\KeyWorkerService.Application.csproj": {
-                "projectPath": "D:\\David\\WorkerService\\KeyWorkerService\\KeyWorkerService.Application\\KeyWorkerService.Application.csproj"
+              "D:\\David\\WorkerService\\KeyWorkerService\\KeyWorkerService.Infrastructure\\KeyWorkerService.Infrastructure.csproj": {
+                "projectPath": "D:\\David\\WorkerService\\KeyWorkerService\\KeyWorkerService.Infrastructure\\KeyWorkerService.Infrastructure.csproj"
               }
             }
           }

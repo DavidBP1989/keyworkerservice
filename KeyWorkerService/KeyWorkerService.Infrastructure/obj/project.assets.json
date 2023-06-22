@@ -1133,9 +1133,25 @@
           }
         }
       },
+      "KeyWorkerService.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "KeyWorkerService.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/KeyWorkerService.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KeyWorkerService.Application.dll": {}
+        }
+      },
       "KeyWorkerService.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
         "compile": {
           "bin/placeholder/KeyWorkerService.Domain.dll": {}
         },
@@ -3463,6 +3479,11 @@
         "version.txt"
       ]
     },
+    "KeyWorkerService.Application/1.0.0": {
+      "type": "project",
+      "path": "../KeyWorkerService.Application/KeyWorkerService.Application.csproj",
+      "msbuildProject": "../KeyWorkerService.Application/KeyWorkerService.Application.csproj"
+    },
     "KeyWorkerService.Domain/1.0.0": {
       "type": "project",
       "path": "../KeyWorkerService.Domain/KeyWorkerService.Domain.csproj",
@@ -3471,6 +3492,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "KeyWorkerService.Application >= 1.0.0",
       "KeyWorkerService.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.7",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.7",
@@ -3509,6 +3531,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "D:\\David\\WorkerService\\KeyWorkerService\\KeyWorkerService.Application\\KeyWorkerService.Application.csproj": {
+              "projectPath": "D:\\David\\WorkerService\\KeyWorkerService\\KeyWorkerService.Application\\KeyWorkerService.Application.csproj"
+            },
             "D:\\David\\WorkerService\\KeyWorkerService\\KeyWorkerService.Domain\\KeyWorkerService.Domain.csproj": {
               "projectPath": "D:\\David\\WorkerService\\KeyWorkerService\\KeyWorkerService.Domain\\KeyWorkerService.Domain.csproj"
             }

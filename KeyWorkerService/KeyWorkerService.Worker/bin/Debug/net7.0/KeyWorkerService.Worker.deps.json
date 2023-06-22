@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "KeyWorkerService.Worker/1.0.0": {
         "dependencies": {
-          "KeyWorkerService.Application": "1.0.0",
+          "KeyWorkerService.Infrastructure": "1.0.0",
           "Microsoft.Extensions.Hosting": "7.0.1"
         },
         "runtime": {
@@ -896,20 +896,23 @@
       },
       "KeyWorkerService.Application/1.0.0": {
         "dependencies": {
-          "KeyWorkerService.Domain": "1.0.0",
-          "KeyWorkerService.Infrastructure": "1.0.0"
+          "KeyWorkerService.Domain": "1.0.0"
         },
         "runtime": {
           "KeyWorkerService.Application.dll": {}
         }
       },
       "KeyWorkerService.Domain/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
         "runtime": {
           "KeyWorkerService.Domain.dll": {}
         }
       },
       "KeyWorkerService.Infrastructure/1.0.0": {
         "dependencies": {
+          "KeyWorkerService.Application": "1.0.0",
           "KeyWorkerService.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.7",
           "Microsoft.Extensions.Logging.Abstractions": "7.0.1"

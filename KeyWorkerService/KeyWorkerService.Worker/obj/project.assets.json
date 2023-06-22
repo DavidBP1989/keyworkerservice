@@ -1482,8 +1482,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "KeyWorkerService.Domain": "1.0.0",
-          "KeyWorkerService.Infrastructure": "1.0.0"
+          "KeyWorkerService.Domain": "1.0.0"
         },
         "compile": {
           "bin/placeholder/KeyWorkerService.Application.dll": {}
@@ -1495,6 +1494,9 @@
       "KeyWorkerService.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
         "compile": {
           "bin/placeholder/KeyWorkerService.Domain.dll": {}
         },
@@ -1506,6 +1508,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "KeyWorkerService.Application": "1.0.0",
           "KeyWorkerService.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.7",
           "Microsoft.Extensions.Logging.Abstractions": "7.0.1"
@@ -4263,7 +4266,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "KeyWorkerService.Application >= 1.0.0",
+      "KeyWorkerService.Infrastructure >= 1.0.0",
       "Microsoft.Extensions.Hosting >= 7.0.1"
     ]
   },
@@ -4299,8 +4302,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\David\\WorkerService\\KeyWorkerService\\KeyWorkerService.Application\\KeyWorkerService.Application.csproj": {
-              "projectPath": "D:\\David\\WorkerService\\KeyWorkerService\\KeyWorkerService.Application\\KeyWorkerService.Application.csproj"
+            "D:\\David\\WorkerService\\KeyWorkerService\\KeyWorkerService.Infrastructure\\KeyWorkerService.Infrastructure.csproj": {
+              "projectPath": "D:\\David\\WorkerService\\KeyWorkerService\\KeyWorkerService.Infrastructure\\KeyWorkerService.Infrastructure.csproj"
             }
           }
         }

@@ -12,6 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\KeyWorkerService.Application\KeyWorkerService.Application.csproj" />
+    <ProjectReference Include="..\KeyWorkerService.Infrastructure\KeyWorkerService.Infrastructure.csproj" />
   </ItemGroup>
 </Project>
