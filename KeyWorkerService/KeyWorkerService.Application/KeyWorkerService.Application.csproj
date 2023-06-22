@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="UseCases\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\KeyWorkerService.Domain\KeyWorkerService.Domain.csproj" />
     <ProjectReference Include="..\KeyWorkerService.Infrastructure\KeyWorkerService.Infrastructure.csproj" />
   </ItemGroup>
