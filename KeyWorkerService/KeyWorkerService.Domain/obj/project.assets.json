@@ -8,24 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Emmanuel\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\busta\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\David\\WorkerService\\KeyWorkerService\\KeyWorkerService.Domain\\KeyWorkerService.Domain.csproj",
+      "projectUniqueName": "D:\\DAVID\\GIBRALTAR\\PROJECTS\\keyworkerservice\\KeyWorkerService\\KeyWorkerService.Domain\\KeyWorkerService.Domain.csproj",
       "projectName": "KeyWorkerService.Domain",
-      "projectPath": "D:\\David\\WorkerService\\KeyWorkerService\\KeyWorkerService.Domain\\KeyWorkerService.Domain.csproj",
-      "packagesPath": "C:\\Users\\Emmanuel\\.nuget\\packages\\",
-      "outputPath": "D:\\David\\WorkerService\\KeyWorkerService\\KeyWorkerService.Domain\\obj\\",
+      "projectPath": "D:\\DAVID\\GIBRALTAR\\PROJECTS\\keyworkerservice\\KeyWorkerService\\KeyWorkerService.Domain\\KeyWorkerService.Domain.csproj",
+      "packagesPath": "C:\\Users\\busta\\.nuget\\packages\\",
+      "outputPath": "D:\\DAVID\\GIBRALTAR\\PROJECTS\\keyworkerservice\\KeyWorkerService\\KeyWorkerService.Domain\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Emmanuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\busta\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

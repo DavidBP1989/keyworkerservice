@@ -10,3 +10,15 @@ D:\David\WorkerService\KeyWorkerService\KeyWorkerService.Domain\obj\Debug\net7.0
 D:\David\WorkerService\KeyWorkerService\KeyWorkerService.Domain\obj\Debug\net7.0\refint\KeyWorkerService.Domain.dll
 D:\David\WorkerService\KeyWorkerService\KeyWorkerService.Domain\obj\Debug\net7.0\KeyWorkerService.Domain.pdb
 D:\David\WorkerService\KeyWorkerService\KeyWorkerService.Domain\obj\Debug\net7.0\ref\KeyWorkerService.Domain.dll
+D:\DAVID\GIBRALTAR\PROJECTS\keyworkerservice\KeyWorkerService\KeyWorkerService.Domain\bin\Debug\net7.0\KeyWorkerService.Domain.deps.json
+D:\DAVID\GIBRALTAR\PROJECTS\keyworkerservice\KeyWorkerService\KeyWorkerService.Domain\bin\Debug\net7.0\KeyWorkerService.Domain.dll
+D:\DAVID\GIBRALTAR\PROJECTS\keyworkerservice\KeyWorkerService\KeyWorkerService.Domain\bin\Debug\net7.0\KeyWorkerService.Domain.pdb
+D:\DAVID\GIBRALTAR\PROJECTS\keyworkerservice\KeyWorkerService\KeyWorkerService.Domain\obj\Debug\net7.0\KeyWorkerService.Domain.csproj.AssemblyReference.cache
+D:\DAVID\GIBRALTAR\PROJECTS\keyworkerservice\KeyWorkerService\KeyWorkerService.Domain\obj\Debug\net7.0\KeyWorkerService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\DAVID\GIBRALTAR\PROJECTS\keyworkerservice\KeyWorkerService\KeyWorkerService.Domain\obj\Debug\net7.0\KeyWorkerService.Domain.AssemblyInfoInputs.cache
+D:\DAVID\GIBRALTAR\PROJECTS\keyworkerservice\KeyWorkerService\KeyWorkerService.Domain\obj\Debug\net7.0\KeyWorkerService.Domain.AssemblyInfo.cs
+D:\DAVID\GIBRALTAR\PROJECTS\keyworkerservice\KeyWorkerService\KeyWorkerService.Domain\obj\Debug\net7.0\KeyWorkerService.Domain.csproj.CoreCompileInputs.cache
+D:\DAVID\GIBRALTAR\PROJECTS\keyworkerservice\KeyWorkerService\KeyWorkerService.Domain\obj\Debug\net7.0\KeyWorkerService.Domain.dll
+D:\DAVID\GIBRALTAR\PROJECTS\keyworkerservice\KeyWorkerService\KeyWorkerService.Domain\obj\Debug\net7.0\refint\KeyWorkerService.Domain.dll
+D:\DAVID\GIBRALTAR\PROJECTS\keyworkerservice\KeyWorkerService\KeyWorkerService.Domain\obj\Debug\net7.0\KeyWorkerService.Domain.pdb
+D:\DAVID\GIBRALTAR\PROJECTS\keyworkerservice\KeyWorkerService\KeyWorkerService.Domain\obj\Debug\net7.0\ref\KeyWorkerService.Domain.dll

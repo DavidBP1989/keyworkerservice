@@ -3215,24 +3215,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Emmanuel\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\busta\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\David\\WorkerService\\KeyWorkerService\\KeyWorkerService.Application\\KeyWorkerService.Application.csproj",
+      "projectUniqueName": "D:\\DAVID\\GIBRALTAR\\PROJECTS\\keyworkerservice\\KeyWorkerService\\KeyWorkerService.Application\\KeyWorkerService.Application.csproj",
       "projectName": "KeyWorkerService.Application",
-      "projectPath": "D:\\David\\WorkerService\\KeyWorkerService\\KeyWorkerService.Application\\KeyWorkerService.Application.csproj",
-      "packagesPath": "C:\\Users\\Emmanuel\\.nuget\\packages\\",
-      "outputPath": "D:\\David\\WorkerService\\KeyWorkerService\\KeyWorkerService.Application\\obj\\",
+      "projectPath": "D:\\DAVID\\GIBRALTAR\\PROJECTS\\keyworkerservice\\KeyWorkerService\\KeyWorkerService.Application\\KeyWorkerService.Application.csproj",
+      "packagesPath": "C:\\Users\\busta\\.nuget\\packages\\",
+      "outputPath": "D:\\DAVID\\GIBRALTAR\\PROJECTS\\keyworkerservice\\KeyWorkerService\\KeyWorkerService.Application\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Emmanuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\busta\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3246,11 +3241,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\David\\WorkerService\\KeyWorkerService\\KeyWorkerService.Domain\\KeyWorkerService.Domain.csproj": {
-              "projectPath": "D:\\David\\WorkerService\\KeyWorkerService\\KeyWorkerService.Domain\\KeyWorkerService.Domain.csproj"
+            "D:\\DAVID\\GIBRALTAR\\PROJECTS\\keyworkerservice\\KeyWorkerService\\KeyWorkerService.Domain\\KeyWorkerService.Domain.csproj": {
+              "projectPath": "D:\\DAVID\\GIBRALTAR\\PROJECTS\\keyworkerservice\\KeyWorkerService\\KeyWorkerService.Domain\\KeyWorkerService.Domain.csproj"
             },
-            "D:\\David\\WorkerService\\KeyWorkerService\\KeyWorkerService.Infrastructure\\KeyWorkerService.Infrastructure.csproj": {
-              "projectPath": "D:\\David\\WorkerService\\KeyWorkerService\\KeyWorkerService.Infrastructure\\KeyWorkerService.Infrastructure.csproj"
+            "D:\\DAVID\\GIBRALTAR\\PROJECTS\\keyworkerservice\\KeyWorkerService\\KeyWorkerService.Infrastructure\\KeyWorkerService.Infrastructure.csproj": {
+              "projectPath": "D:\\DAVID\\GIBRALTAR\\PROJECTS\\keyworkerservice\\KeyWorkerService\\KeyWorkerService.Infrastructure\\KeyWorkerService.Infrastructure.csproj"
             }
           }
         }
